@@ -1,0 +1,9 @@
+{
+  "name": "sqw-test",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3",
+    "modernizr": "~2.8.3"
+  }
+}

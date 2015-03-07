@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAE;EACA,KAAK,EAAE,IAAI",
+"sources": ["../../include/sass/sqw-test.scss"],
+"names": [],
+"file": "sqw-test.css"
+}
