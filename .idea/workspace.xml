@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa92c94d-ce97-4c97-abcb-0a2eaa636152" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/scripts/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/8a841bbdd91249317bb011cd5e98a4d18ac8294d/sqw-test.scssc" afterPath="$PROJECT_DIR$/.sass-cache/8a841bbdd91249317bb011cd5e98a4d18ac8294d/sqw-test.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/pages/index.hbs" afterPath="$PROJECT_DIR$/include/html/pages/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/map.hbs" afterPath="$PROJECT_DIR$/include/html/partials/map.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sass/sqw-test/map.scss" afterPath="$PROJECT_DIR$/include/sass/sqw-test/map.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/layouts/master.hbs" afterPath="$PROJECT_DIR$/include/html/layouts/master.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/sqw-test.css.map" afterPath="$PROJECT_DIR$/public/css/sqw-test.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/sqw-test.css" afterPath="$PROJECT_DIR$/public/css/sqw-test.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/sqw-test.js" afterPath="$PROJECT_DIR$/public/scripts/sqw-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/sqw-test.min.css" afterPath="$PROJECT_DIR$/public/css/sqw-test.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/sqw-test.min.js" afterPath="$PROJECT_DIR$/public/scripts/sqw-test.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sass/sqw-test.scss" afterPath="$PROJECT_DIR$/include/sass/sqw-test.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fa92c94d-ce97-4c97-abcb-0a2eaa636152" name="Default" comment="" />
     <ignored path="sqw-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
