@@ -2202,4 +2202,12 @@ input[type="button"].btn-block {
   height: 400px;
 }
 
+#footer {
+  background: url("../assets/images/footer.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
 /*# sourceMappingURL=sqw-test.css.map */
