@@ -19,8 +19,3 @@ $( window ).bind("resize", function(){
     google.maps.event.trigger(map, "resize");
     map.setCenter(center);
 });
-
-/**
- * Created by somi on 7/03/15.
- */
-console.log("hi");
