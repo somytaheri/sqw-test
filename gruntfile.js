@@ -35,7 +35,7 @@ module.exports = function (grunt) {
             },
 
             clean: {
-                html: ['public/*']
+                html: ['public/*.html']
             },
 
             copy: {
