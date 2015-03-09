@@ -1,21 +1,14 @@
-$font-family-base: lato-Reg, Helvetica, Arial, sans-serif;
-$font-family-base-bld: lato-Bol, Helvetica, Arial, sans-serif;
+$font-family-base: lato-Reg;
+$font-family-base-bld: lato-Bol;
 
 
-$font-size-base:          14pt;
-$font-size-large:         ceil(($font-size-base * 1.14)) !default; // ~16pt
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12pt
+$font-size-base:          14px;
+$font-size-large:         16px;
+$font-size-small:         12px;
 
-$font-size-h1:            ceil(($font-size-base * 3.4)) !default; // ~48pt
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24pt
-
-$font-size-base-xs:          28pt;
-$font-size-large-xs:         ceil(($font-size-base-xs * 1.14)) !default; // ~32pt
-$font-size-small-xs:         ceil(($font-size-base-xs * 0.85)) !default; // ~24pt
-
-$font-size-h1-xs:            ceil(($font-size-base * 2.28)) !default; // ~64pt
-$font-size-h3-xs:            ceil(($font-size-base * 1.7)) !default; // ~48pt
-
+$font-size-h1:            34px;
+$font-size-h3:            26px;
+$font-size-h4:            20px;
 
 $black: #333333;
 $white: #fff;

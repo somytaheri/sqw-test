@@ -1,8 +1,28 @@
-#footer {
+.footer {
+  padding: 0;
   background: url("../assets/images/footer.jpg");
-  background-position: right;
+  background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 450px;
   font-family: $font-family-base;
+  color: $white;
+
+  .footer-text {
+    line-height: 35px;
+    margin-top: 172px;
+    margin-bottom: 130px;
+  }
+  .footer-copyright {
+    font-size: $font-size-small;
+  }
+
+  @media (min-width: $screen-sm) {
+    height: 350px;
+    .footer-text {
+      margin-top: 132px;
+      margin-bottom: 78px;
+    }
+  }
+
 }

@@ -1,0 +1,46 @@
+.header {
+  .header-bcg {
+    position: relative;
+    background: url("../assets/images/header.jpg") no-repeat;
+    background-size: cover;
+    height: 580px;
+    background-position: center top;
+  }
+
+  .header-logo {
+    margin-bottom: 80px;
+  }
+
+  .header-title {
+    font-family: $font-family-base;
+    color: $white;
+    margin-bottom: 50px;
+  }
+
+  .contact-btn {
+    margin-bottom: 50px ;
+    padding: 10px 30px;
+    color: $brand-primary;
+    border: none;
+  }
+
+  .header-service {
+    margin-bottom: 10px;
+    color: $white;
+  }
+
+  @media (min-width: $screen-sm) {
+    .header-logo {
+      margin-bottom: 130px;
+    }
+
+    .contact-btn {
+      position: absolute;
+      top:35px;
+      right: 20px;
+    }
+    .header-title {
+      margin-bottom: 150px;
+    }
+  }
+}

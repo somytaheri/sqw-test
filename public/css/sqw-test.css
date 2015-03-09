@@ -2197,18 +2197,190 @@ input[type="button"].btn-block {
     display: none !important;
   }
 }
-#map-canvas {
-  width: 100%;
-  height: 400px;
+@font-face {
+  font-family: "lato-Bol";
+  src: url("../fonts/lato-Bol.otf") format("opentype");
+}
+@font-face {
+  font-family: "Lato-Reg";
+  src: url("../fonts/lato-Reg.otf") format("opentype");
+}
+html {
+  padding: 0;
+  margin: 0;
 }
 
-#footer {
+body {
+  padding: 0;
+  margin: 0;
+  font-family: lato-Reg;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .center-block {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+}
+.header .header-bcg {
+  position: relative;
+  background: url("../assets/images/header.jpg") no-repeat;
+  background-size: cover;
+  height: 580px;
+  background-position: center top;
+}
+.header .header-logo {
+  margin-bottom: 80px;
+}
+.header .header-title {
+  font-family: lato-Reg;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.header .contact-btn {
+  margin-bottom: 50px;
+  padding: 10px 30px;
+  color: #01aba8;
+  border: none;
+}
+.header .header-service {
+  margin-bottom: 10px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .header .header-logo {
+    margin-bottom: 130px;
+  }
+  .header .contact-btn {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+  }
+  .header .header-title {
+    margin-bottom: 150px;
+  }
+}
+
+#services .services-bcg {
+  padding: 0;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+#services .services-text {
+  padding: 30px 30px;
+}
+#services .download-block {
+  color: #01aba8;
+  font-weight: bold;
+}
+#services .download-block .download-icon {
+  background: url("../assets/images/download-icon.png") no-repeat;
+  width: 15px;
+  height: 18px;
+  display: inline-block;
+  padding-right: 25px;
+}
+@media (min-width: 768px) {
+  #services .services-bcg {
+    height: 422px;
+  }
+}
+@media (min-width: 992px) {
+  #services .services-bcg {
+    height: 372px;
+  }
+}
+
+.map {
+  padding: 0;
+}
+.map #map-canvas {
+  width: 100%;
+  height: 400px;
+  padding: 0;
+}
+.map #map-canvas .labels {
+  color: red;
+  background-color: white;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  border: 2px solid black;
+  white-space: nowrap;
+}
+
+.contact {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.contact .contact-title {
+  font-family: lato-Bol;
+  font-size: 16px;
+  font-weight: bold;
+}
+.contact .contact-content {
+  margin-bottom: 14px;
+}
+.contact .contact-content a {
+  color: #077fbb;
+}
+.contact .contact-Consultants {
+  float: left;
+  width: 145px;
+}
+
+.footer {
+  padding: 0;
   background: url("../assets/images/footer.jpg");
-  background-position: right;
+  background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  font-family: lato-Reg, Helvetica, Arial, sans-serif;
+  height: 450px;
+  font-family: lato-Reg;
+  color: #fff;
+}
+.footer .footer-text {
+  line-height: 35px;
+  margin-top: 172px;
+  margin-bottom: 130px;
+}
+.footer .footer-copyright {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .footer {
+    height: 350px;
+  }
+  .footer .footer-text {
+    margin-top: 132px;
+    margin-bottom: 78px;
+  }
 }
 
 /*# sourceMappingURL=sqw-test.css.map */

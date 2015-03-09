@@ -1,0 +1,20 @@
+.contact {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  .contact-title {
+    font-family: $font-family-base-bld ;
+    font-size: $font-size-large;
+    font-weight: bold;
+  }
+
+  .contact-content {
+    margin-bottom: 14px;
+    a {
+      color: $brand-secondary;
+    }
+}
+  .contact-Consultants {
+    float: left;
+    width: 145px;
+  }
+}
