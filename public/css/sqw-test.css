@@ -2217,7 +2217,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
 }
 
@@ -2226,24 +2226,31 @@ h1 {
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 32px;
 }
 
 h4 {
   font-size: 20px;
 }
 
+a, a:hover, a:link, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  border: none;
+}
+
 .center {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .center-block {
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
-  }
+.center-block {
+  display: table-cell;
+  vertical-align: middle;
 }
+
 .header .header-bcg {
   position: relative;
   background: url("../assets/images/header.jpg") no-repeat;
@@ -2269,6 +2276,13 @@ h4 {
   margin-bottom: 10px;
   color: #fff;
 }
+.header .btn-arrow-dwn {
+  background: url("../assets/images/sprite.png") 0 -24px no-repeat;
+  width: 35px;
+  height: 25px;
+  display: inline-block;
+  padding-right: 25px;
+}
 @media (min-width: 768px) {
   .header .header-logo {
     margin-bottom: 130px;
@@ -2276,42 +2290,80 @@ h4 {
   .header .contact-btn {
     position: absolute;
     top: 35px;
-    right: 20px;
+    right: 15px;
   }
   .header .header-title {
     margin-bottom: 150px;
   }
 }
+@media (min-width: 992px) {
+  .header .header-logo {
+    padding-left: 30px;
+  }
+  .header .contact-btn {
+    right: 45px;
+  }
+}
 
 #services .services-bcg {
   padding: 0;
-  min-height: 300px;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  background-position: center;
 }
 #services .services-text {
-  padding: 30px 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#services .services-text h3 {
+  margin-top: 0;
 }
 #services .download-block {
   color: #01aba8;
   font-weight: bold;
 }
 #services .download-block .download-icon {
-  background: url("../assets/images/download-icon.png") no-repeat;
+  background: url("../assets/images/sprite.png") 0 0 no-repeat;
   width: 15px;
   height: 18px;
   display: inline-block;
   padding-right: 25px;
 }
 @media (min-width: 768px) {
+  #services .services-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #services .center-block {
+    height: 470px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
   #services .services-bcg {
-    height: 422px;
+    height: 470px;
   }
 }
 @media (min-width: 992px) {
+  #services .center-block {
+    height: 450px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
   #services .services-bcg {
-    height: 372px;
+    height: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  #services .center-block {
+    height: 400px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #services .services-bcg {
+    height: 400px;
   }
 }
 
@@ -2320,24 +2372,31 @@ h4 {
 }
 .map #map-canvas {
   width: 100%;
-  height: 400px;
-  padding: 0;
+  height: 300px;
 }
-.map #map-canvas .labels {
-  color: red;
-  background-color: white;
-  font-family: "Lucida Grande", "Arial", sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  width: 60px;
-  border: 2px solid black;
-  white-space: nowrap;
+@media (min-width: 768px) {
+  .map #map-canvas {
+    height: 470px;
+  }
+}
+@media (min-width: 992px) {
+  .map #map-canvas {
+    height: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  .map #map-canvas {
+    height: 400px;
+  }
 }
 
 .contact {
   margin-bottom: 50px;
   margin-top: 50px;
+}
+.contact .contact-company {
+  margin-top: 0;
+  padding-left: 20px;
 }
 .contact .contact-title {
   font-family: lato-Bol;
@@ -2354,11 +2413,26 @@ h4 {
   float: left;
   width: 145px;
 }
+@media (min-width: 768px) {
+  .contact .contact-company {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .contact .contact-company {
+    padding-left: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact .contact-company {
+    padding-left: 50px;
+  }
+}
 
 .footer {
   padding: 0;
   background: url("../assets/images/footer.jpg");
-  background-position: right top;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;

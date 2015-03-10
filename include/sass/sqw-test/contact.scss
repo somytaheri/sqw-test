@@ -1,6 +1,10 @@
 .contact {
   margin-bottom: 50px;
   margin-top: 50px;
+  .contact-company {
+    margin-top: 0;
+    padding-left: $element-padding-xs;
+  }
   .contact-title {
     font-family: $font-family-base-bld ;
     font-size: $font-size-large;
@@ -12,9 +16,26 @@
     a {
       color: $brand-secondary;
     }
-}
+  }
   .contact-Consultants {
     float: left;
     width: 145px;
+  }
+  @media (min-width: $screen-sm) {
+    .contact-company {
+      padding-left: $element-padding-sm;
+    }
+  }
+
+  @media (min-width: $screen-md) {
+    .contact-company {
+      padding-left: $element-padding-md;
+    }
+  }
+
+  @media (min-width: $screen-lg) {
+    .contact-company {
+      padding-left: $element-padding-lg;
+    }
   }
 }

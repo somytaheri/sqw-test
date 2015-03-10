@@ -1,3 +1,5 @@
+//font
+
 $font-family-base: lato-Reg;
 $font-family-base-bld: lato-Bol;
 
@@ -10,7 +12,22 @@ $font-size-h1:            34px;
 $font-size-h3:            26px;
 $font-size-h4:            20px;
 
+//color
 $black: #333333;
 $white: #fff;
 $brand-primary: #01aba8;
 $brand-secondary: #077fbb;
+
+
+//to have consistent height of text block, images and map
+$element-height-xs: 300px;
+$element-height-sm: 470px;
+$element-height-md: 450px;
+$element-height-lg: 400px;
+
+//to have consistent padding
+$element-padding-xs: 20px;
+$element-padding-sm: 30px;
+$element-padding-md: 40px;
+$element-padding-lg: 50px;
+

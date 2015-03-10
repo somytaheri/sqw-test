@@ -2,19 +2,24 @@
   padding: 0;
   #map-canvas {
     width: 100%;
-    height: 400px;
-    padding: 0;
+    height: $element-height-xs;
+  }
 
-    .labels {
-      color: red;
-      background-color: white;
-      font-family: "Lucida Grande", "Arial", sans-serif;
-      font-size: 10px;
-      font-weight: bold;
-      text-align: center;
-      width: 60px;
-      border: 2px solid black;
-      white-space: nowrap;
+  @media (min-width: $screen-sm) {
+    #map-canvas {
+      height: $element-height-sm;
+    }
+  }
+
+  @media (min-width: $screen-md) {
+    #map-canvas {
+      height: $element-height-md;
+    }
+  }
+
+  @media (min-width: $screen-lg) {
+    #map-canvas {
+      height: $element-height-lg;
     }
   }
 }

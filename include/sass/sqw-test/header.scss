@@ -29,6 +29,14 @@
     color: $white;
   }
 
+  .btn-arrow-dwn {
+    background: url("../assets/images/sprite.png") 0 -24px no-repeat;
+    width: 35px;
+    height: 25px;
+    display: inline-block;
+    padding-right: 25px;
+  }
+
   @media (min-width: $screen-sm) {
     .header-logo {
       margin-bottom: 130px;
@@ -37,10 +45,20 @@
     .contact-btn {
       position: absolute;
       top:35px;
-      right: 20px;
+      right: 15px;
     }
     .header-title {
       margin-bottom: 150px;
+    }
+  }
+
+  @media (min-width: $screen-md) {
+    .header-logo {
+      padding-left: 30px;
+    }
+
+    .contact-btn {
+      right: 45px;
     }
   }
 }

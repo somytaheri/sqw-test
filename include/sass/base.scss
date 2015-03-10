@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  font-size: $font-size-large;
+  font-size: $font-size-base;
   line-height: 25px;
 }
 
@@ -26,16 +26,22 @@ h4 {
   font-size: $font-size-h4;
 }
 
-//cutom class
+a, a:hover, a:link, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  border: none;
+}
+
+//cutome classes
 .center {
   text-align: center;
 }
 
-
-@media (min-width: $screen-sm) {
-  .center-block {
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
-  }
+.center-block {
+  display: table-cell;
+  vertical-align: middle;
 }
+

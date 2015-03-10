@@ -1,14 +1,20 @@
 #services {
   .services-bcg {
     padding: 0;
-    min-height: 300px;
+    height: $element-height-xs;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
-
+    background-position: center;
   }
+
   .services-text {
-    padding: 30px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: $element-padding-xs;
+    padding-right: $element-padding-xs;
+    h3 {
+      margin-top: 0;
+    }
   }
 
   .download-block {
@@ -16,27 +22,48 @@
     font-weight: bold;
 
     .download-icon {
-      background: url("../assets/images/download-icon.png") no-repeat;
+      background: url("../assets/images/sprite.png") 0 0 no-repeat;
       width: 15px;
       height: 18px;
       display: inline-block;
       padding-right: 25px;
     }
   }
-  
-
-
-
 
   @media (min-width: $screen-sm) {
+    .services-text {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .center-block {
+      height: $element-height-sm;
+      padding-right: $element-padding-sm;
+      padding-left: $element-padding-sm;
+    }
     .services-bcg {
-      height: 422px;
+      height: $element-height-sm;
     }
   }
 
   @media (min-width: $screen-md) {
+    .center-block {
+      height: $element-height-md;
+      padding-right: $element-padding-md;
+      padding-left: $element-padding-md;
+    }
     .services-bcg {
-      height: 372px;
+      height: $element-height-md;
+    }
+  }
+
+  @media (min-width: $screen-lg) {
+    .center-block {
+      height: $element-height-lg;
+      padding-right: $element-padding-lg;
+      padding-left: $element-padding-lg;
+    }
+    .services-bcg {
+      height: $element-height-lg;
     }
   }
 
