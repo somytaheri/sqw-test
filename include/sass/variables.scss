@@ -9,7 +9,7 @@ $font-size-large:         16px;
 $font-size-small:         12px;
 
 $font-size-h1:            34px;
-$font-size-h3:            26px;
+$font-size-h3:            24px;
 $font-size-h4:            20px;
 
 //color
@@ -18,7 +18,13 @@ $white: #fff;
 $brand-primary: #01aba8;
 $brand-secondary: #077fbb;
 
+@media (min-width:
+$screen-lg) {
+.container-fluid {
+  width: 1170px;
+}
 
+}
 //to have consistent height of text block, images and map
 $element-height-xs: 300px;
 $element-height-sm: 470px;

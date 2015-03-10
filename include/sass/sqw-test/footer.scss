@@ -1,13 +1,15 @@
 .footer {
-  padding: 0;
-  background: url("../assets/images/footer.jpg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  font-family: $font-family-base;
-  color: $white;
-
+  .footer-bcg{
+    padding: 0;
+    background: url("../assets/images/footer.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    font-family: $font-family-base;
+    color: $white;
+  }
+  
   .footer-text {
     line-height: 35px;
     margin-top: 172px;

@@ -2205,6 +2205,11 @@ input[type="button"].btn-block {
   font-family: "Lato-Reg";
   src: url("../fonts/lato-Reg.otf") format("opentype");
 }
+@media (min-width: 1200px) {
+  .container-fluid {
+    width: 1170px;
+  }
+}
 html {
   padding: 0;
   margin: 0;
@@ -2226,7 +2231,7 @@ h1 {
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 h4 {
@@ -2370,6 +2375,10 @@ img {
 .map {
   padding: 0;
 }
+.map .container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
 .map #map-canvas {
   width: 100%;
   height: 300px;
@@ -2429,7 +2438,7 @@ img {
   }
 }
 
-.footer {
+.footer .footer-bcg {
   padding: 0;
   background: url("../assets/images/footer.jpg");
   background-position: center top;

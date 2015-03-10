@@ -1,5 +1,9 @@
 .map {
   padding: 0;
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
   #map-canvas {
     width: 100%;
     height: $element-height-xs;
